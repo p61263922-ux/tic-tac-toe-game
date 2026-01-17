@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color :#89986d;
+    text-align: center;
+    height: 95vh;
+    
+}
+h1{
+   padding-top: 50px;
+}
+   
+.container{
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ttt{
+    height: 490px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #F6F0D7;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #CD5656;
+    font-size: 100px;
+    border: 2px solid black;
+}
+.reset{
+    background-color:#f6f0d797 ;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+
+.msg-container{
+    height: 100px;
+    width: 100%;
+}
+#winner-msg{
+    color:rgb(54, 36, 36) ;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 20px;
+    
+}
+#new-btn{
+    background-color:#f6f0d797 ;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   margin-top: 10px; 
+}
+
+.hide{
+   display: none;
+   
+}
+
+/* for other devices */
+
+@media (max-width: 600px) {
+
+   
+ 
+    .container{
+        height: 280px;
+        width: 100%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .box{
+        height: 80px;
+        width: 80px;
+        font-size: 60px;
+        margin-left: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .ttt{
+        height: 250px;
+        width: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h1{
+    padding-top: 80px;
+    font-size: x-large;
+    }
+
+    .reset{
+        margin-top: 10px;
+        width: 110px;
+        height: 35px;
+        font-size: 13px;
+         font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #new-btn {
+    width: 110px;
+    height: 35px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    }
+
+    #winner-msg{
+    color:rgb(54, 36, 36) ;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top:60px 
+    }
+   
+
+} 
